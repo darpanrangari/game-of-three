@@ -1,0 +1,12 @@
+.login{
+    background-color:#ffe4c4;
+    border-radius: 5px;
+    box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+    width:450px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    .button{
+        margin-top: 20px;
+    }
+}

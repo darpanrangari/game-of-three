@@ -1,0 +1,37 @@
+button {
+  border: none;
+  margin: 10px;
+  padding: 20px;
+  background-color: crimson;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  min-width: 44px;
+}
+.chatContainer{
+
+  span {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 4px #bcbcbc;
+    width: 400px;
+  }
+
+  .textLeft {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .textRight{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    span{
+      margin-left: auto;
+      order:2;
+    }
+  }
+
+}
