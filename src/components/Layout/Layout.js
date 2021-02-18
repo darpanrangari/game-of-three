@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 const Layout = (props) => {
     return (
         <div className={styles.wrapper}>
-            <header>Soober team game</header>
+            <header>Scoober team game</header>
             <main className={styles.main}>
                 {props.children}
             </main>
